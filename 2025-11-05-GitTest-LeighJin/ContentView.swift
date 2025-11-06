@@ -14,7 +14,9 @@ struct ContentView: View {
                 .resizable()
                 .scaledToFit()
                 .foregroundStyle(.tint)
-            Text("Hello, world!")
+            Text("i am an iOS Developer!")
+                .font(.title)
+                .foregroundStyle(.blue)
         }
         .padding()
     }
